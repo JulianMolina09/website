@@ -14,27 +14,9 @@ h1{
   margin-left: auto;
   text-align: center;
   margin-top: 5%;
-  font-family: Copperplate, Papyrus, fantasy;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 1in;
   color: #0567acfc;
-}
-
-.btn-group .button {
-          background-color: #75a3c3; /* Blue */
-  border: white;
-  color: white;
-  padding: 15px 142.5px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  cursor: pointer;
-  padding-inline-start: 19%;
-  float: left;
-}
-
-
-.btn-group .button:hover {
-  background-color: #0567acfc;
 }
 
 .img-group p{
@@ -51,6 +33,33 @@ footer{
   margin-left: auto;
   margin-right: auto;
 }
+/*Set background color for nav bar*/
+.topnav {
+  background-color: #516e7c;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(95, 122, 182);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #1e3547;
+  color: white;
+}
 
     </style>
 <title> Julian Molina </title>
@@ -62,11 +71,13 @@ footer{
 
       
 
-  <div class="btn-group">
-    <a href="https://julianmolina09.github.io/website/links" target="_blank" class="button">Links</a>
-    <a href="https://github.com/JulianMolina09" target="_blank" class="button">About Me</a>
-    <a href="mailto:jam62619@email.vccs.edu" target="_blank" class="button">Contact Info</a>
-  </div>
+div class="topnav">
+<a class="active" href="https://julianmolina09.github.io/website">Home</a>
+<a href="https://julianmolina09.github.io/website/links">My Links</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+<a href="#news">News</a>
+</div>
 
 <footer> 
   <a id="vLink1" href="http://validator.w3.org/check?uri=https://julianmolina09.github.io/website/"><strong> HTML </strong> Valid! </a>
