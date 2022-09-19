@@ -3,6 +3,14 @@
 <head>
   <meta charset="utf-8">
     <style>
+
+h1, footer {
+    text-align: center;
+}
+footer>a, footer>a:visited {
+    text-decoration: none;
+    color: #555;
+}
 /* Set background*/
 body {
     background: url(https://t3.ftcdn.net/jpg/03/83/70/80/240_F_383708088_fQJrmVVh5VqroF5FoItCednEyXfuMEOr.jpg) no-repeat center center fixed; 
@@ -59,6 +67,19 @@ footer{
 }
 
     </style>
+
+    <script>
+      function init() {
+        var loc = window.location.href;
+        var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+        var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                              loc + '?profile=css3';
+        document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
+        document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+      }
+      window.onload = init;
+      </script>
+
 <title> Julian Molina </title>
 </head>
 
@@ -67,19 +88,18 @@ footer{
     <div class="topnav">
     <a class="active" href="https://julianmolina09.github.io/website/links">My Links</a>
     <a href="https://julianmolina09.github.io/website">Home</a>
-    <a href="#about">About</a>
+    <a href="https://julianmolina09.github.io/aboutme">About</a>
     <a href="#contact">Contact</a>
     <a href="#news">News</a>
   </div>
 
   <h1>Links</h1>
-<div class ="foot">
-  <footer>
-    <a id="vLink1" href="http://validator.w3.org/check?uri=https://julianmolina09.github.io/website/links"><strong> HTML </strong> Valid </a>
-  </footer>
-    <footer>
-    <a id="vLink2" href="http://jigsaw.w3.org/css-validator/validator?uri=https://julianmolina09.github.io/website/links"><strong> CSS </strong> Valid </a>
-  </footer>
+
+<footer>
+<a id="vLink1"><strong> HTML </strong> Valid! </a> |
+<a id="vLink2"><strong> CSS </strong> Valid! </a>
+</footer>
+
 </div>
 
 </body>
