@@ -64,6 +64,7 @@ footer{
 h2{
   color: #ffffff;
   text-align: center;
+  margin-left: 10%;
 }
 
 .icon-bar {
@@ -87,12 +88,12 @@ h2{
   background-color: #000;
 }
 
-.facebook {
+.instagram {
   background: #a8bda6;
   color: white;
 }
 
-.twitter {
+.discord {
   background: #a8bda6;
   color: white;
 }
