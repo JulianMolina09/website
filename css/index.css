@@ -56,3 +56,49 @@ h1{
   color: white;
   opacity: 50%;
 }
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #6c8cbc;
+  color: white;
+}
+
+.twitter {
+  background: #6c8cbc;
+  color: white;
+}
+
+.github {
+  background: #6c8cbc;
+  color: white;
+}
+
+.linkedin {
+  background: #6c8cbc;
+  color: white;
+}
+
+.youtube {
+  background: #6c8cbc;
+  color: white;
+}
