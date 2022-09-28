@@ -4,104 +4,34 @@
 <head>
 <meta charset="utf-8">
 <title>Goals</title>
-<style>
-h1, footer {
-    text-align: center;
-}
-footer>a, footer>a:visited {
-    text-decoration: none;
-    color: #ffffff;
-}
-video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.8;
-    z-index: -1;
-    filter: brightness(50%);
-}
 
-/*Style the header*/
-h1{
-  margin-left: auto;
-  text-align: center;
-  margin-top: 5%;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 1in;
-  color: #ffffff;
-}
-/* Fix footer to the bottom of page*/
-footer{
-  margin-top: 100%;
-  color: #ffffff;
-}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-/*Set background color for nav bar*/
-.topnav {
-  background-color: #d28d27d2;
-  overflow: hidden;
-}
+<link rel="stylesheet" href="css/webdevgoals.css">
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
+<link rel="icon" type="image/x-icon" href="/media/fishy.ico">
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: rgba(214, 81, 20, 0.828);
-  color: rgb(95, 122, 182);
-}
+<script src="javascript/webdevgoals.js"></script>
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #de6305;
-  color: white;
-}
-
-h2{
-  color: #ffffff;
-  text-align: center;
-}
-
-ul{
-  color: #ffffff;
-  margin-left: 30%;
-  margin-right: auto;
-}
-
-</style>
-<script>
-function init() {
-  var loc = window.location.href;
-  var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
-  var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
-                        loc + '?profile=css3';
-  document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
-  document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
-}
-window.onload = init;
-</script>
 </head>
 <body>
 
   <video src="media/fall.mp4" muted loop autoplay></video>
 
 <div class="topnav">
-    <a class="active" href="https://julianmolina09.github.io/website/webdevgoals">Goals</a>
-    <a href="https://julianmolina09.github.io/website">Home</a>
-    <a href="https://julianmolina09.github.io/website/aboutme">About</a>
-    <a href="https://julianmolina09.github.io/website/links">My Links</a>
-    <a href="#contact">Contact</a>
-    <a href="#news">News</a>
+  <a class="active" href="https://julianmolina09.github.io/website/webdevgoals"><i class="fa fa-fw fa-trophy"></i>Goals</a>
+  <a href="https://julianmolina09.github.io/website"><i class="fa fa-fw fa-home"></i>Home</a>
+  <a href="https://julianmolina09.github.io/website/aboutme"><i class="fa fa-fw fa-question"></i>About</a>
+  <a href="mailto:jam62619@email.vccs.edu"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+  <a href="#news"><i class="fa fa-fw fa-newspaper-o"></i>News</a>
+  </div>
+
+  <div class="icon-bar">
+    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+    <a href="#" class="github"><i class="fa fa-github"></i></a> 
+    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+    <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
   </div>
   
 <h1>Web Devolpment Goals</h1>

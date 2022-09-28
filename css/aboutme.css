@@ -66,10 +66,49 @@ h2{
   text-align: center;
 }
 
-img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  opacity: 75%;
-
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #a8bda6;
+  color: white;
+}
+
+.twitter {
+  background: #a8bda6;
+  color: white;
+}
+
+.github {
+  background: #a8bda6;
+  color: white;
+}
+
+.linkedin {
+  background: #a8bda6;
+  color: white;
+}
+
+.youtube {
+  background: #a8bda6;
+  color: white;
+}
+

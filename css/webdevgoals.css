@@ -1,0 +1,120 @@
+
+h1, footer {
+    text-align: center;
+}
+footer>a, footer>a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    z-index: -1;
+    filter: brightness(50%);
+}
+
+/*Style the header*/
+h1{
+  margin-left: auto;
+  text-align: center;
+  margin-top: 5%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1in;
+  color: #ffffff;
+}
+/* Fix footer to the bottom of page*/
+footer{
+  margin-top: 100%;
+  color: #ffffff;
+}
+
+/*Set background color for nav bar*/
+.topnav {
+  background-color: #d28d27d2;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgba(214, 81, 20, 0.828);
+  color: rgb(95, 122, 182);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #de6305;
+  color: white;
+}
+
+h2{
+  color: #ffffff;
+  text-align: center;
+}
+
+ul{
+  color: #ffffff;
+  margin-left: 30%;
+  margin-right: auto;
+}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #d28d27d2;
+  color: white;
+}
+
+.twitter {
+  background: #d28d27d2;
+  color: white;
+}
+
+.github {
+  background: #d28d27d2;
+  color: white;
+}
+
+.linkedin {
+  background: #d28d27d2;
+  color: white;
+}
+
+.youtube {
+  background: #d28d27d2;
+  color: white;
+}
+
