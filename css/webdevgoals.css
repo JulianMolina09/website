@@ -1,3 +1,4 @@
+
 h1, footer {
     text-align: center;
 }
@@ -14,6 +15,7 @@ video {
     object-fit: cover;
     opacity: 0.8;
     z-index: -1;
+    filter: brightness(50%);
 }
 
 /*Style the header*/
@@ -24,19 +26,17 @@ h1{
   font-family: 'Times New Roman', Times, serif;
   font-size: 1in;
   color: #ffffff;
-  
 }
-
 /* Fix footer to the bottom of page*/
 footer{
   margin-top: 100%;
+  color: #ffffff;
 }
 
 /*Set background color for nav bar*/
 .topnav {
-  background-color: #a8bda6;
+  background-color: #d28d27d2;
   overflow: hidden;
-  opacity: 75%;
 }
 
 /* Style the links inside the navigation bar */
@@ -51,17 +51,23 @@ footer{
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: #69745f;
+  background-color: rgba(214, 81, 20, 0.828);
+  color: rgb(95, 122, 182);
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #3c4444;
+  background-color: #de6305;
   color: white;
 }
 
 h2{
   color: #ffffff;
   text-align: center;
+}
+
+ul{
+  color: #ffffff;
+  margin-left: 30%;
+  margin-right: auto;
 }
