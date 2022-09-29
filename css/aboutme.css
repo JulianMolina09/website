@@ -25,6 +25,7 @@ h1{
   font-family: 'Times New Roman', Times, serif;
   font-size: 1in;
   color: #ffffff;
+  box-shadow: #69745f;
   
 }
 
@@ -65,7 +66,6 @@ footer{
 h2{
   color: #ffffff;
   text-align: center;
-  margin-left: 10%;
 }
 
 .icon-bar {
