@@ -7,7 +7,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<link rel="stylesheet" href="css/webdevgoals.css">
+<link rel="stylesheet" href="css/todo.css">
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -17,19 +17,19 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 
-<script src="javascript/webdevgoals.js"></script>
+<script src="javascript/todo.js"></script>
 
 </head>
 <body>
 
-  <video src="media/fall.mp4" muted loop autoplay></video>
+  <video src="media/Space.mp4" muted loop autoplay></video>
 
 <div class="topnav">
-  <a class="active" href="https://julianmolina09.github.io/website/webdevgoals"><i class="fa fa-fw fa-trophy"></i>Goals</a>
+  <a class="active" href="https://julianmolina09.github.io/website/todo"><i class="fa fa-fw fa-tasks"></i>Objectives</a>
+  <a href="https://julianmolina09.github.io/website/webdevgoals"><i class="fa fa-fw fa-trophy"></i>Goals</a>
   <a href="https://julianmolina09.github.io/website"><i class="fa fa-fw fa-home"></i>Home</a>
   <a href="https://julianmolina09.github.io/website/aboutme"><i class="fa fa-fw fa-question"></i>About</a>
   <a href="mailto:jam62619@email.vccs.edu"><i class="fa fa-fw fa-envelope"></i>Contact</a>
-  <a href="https://julianmolina09.github.io/website/todo"><i class="fa fa-fw fa-tasks"></i>Objectives</a>
   </div>
 
   <div class="icon-bar">
@@ -40,16 +40,21 @@
     <a href="https://www.youtube.com/channel/UC5jmx568v78Nza_cHL7OCRg/featured" class="youtube"><i class="fa fa-youtube"></i></a> 
   </div>
   
-<h1>Web Devolpment Goals</h1>
+<h1>Objectives</h1>
 
-<h2> My goals for Web Devolpment are as follows...</h2>
-<ul>
-  <li>To gain the ability to help my community with computer literacy.</li>
-  <li>I would one day like to make multiple websites for future buisness ventures.</li>
-  <li>Foster a love for programming.</li>
-  <li>A mass as much knowledge as I can.</li>
-</ul>
-
+<div id="myDIV" class="header">
+    <h2 style="margin:5px">My To Do List</h2>
+    <input type="text" id="myInput" placeholder="Title...">
+    <span onclick="newElement()" class="addBtn">Add</span>
+  </div>
+  
+  <ul id="myUL">
+    <li>Find Client</li>
+    <li>Contact Client</li>
+    <li>Meet with Client</li>
+    <li>Establish Roles</li>
+    <li>Make and Share Repo</li>
+  </ul>
 
 <footer>
 <a id="vLink1"><strong> HTML </strong> Valid! </a> |
