@@ -4,17 +4,20 @@
 <meta charset="utf-8">
 <title>Phrase-o-Matic</title>
 <style>
-body {
-    color: darkgray;
-    background-color: grey;
+body{
+  background-color: beige;
 }
 h1 {
   font-size: 3.5vw;
-  color: darksalmon;
+  color: slategray;
 }
 main {
   text-align: center;
   font-size: 3vw;
+}
+p {
+  color: salmon;
+  font-family: fantasy;
 }
 </style>
 <script>
@@ -42,12 +45,15 @@ function makePhrase() {
   document.getElementById("word2").innerHTML = randomChoice(words2);
   document.getElementById("word3").innerHTML = randomChoice(words3);
 }
-makePhrase();
+function init() {
+  makePhrase();
+}
+window.onload = init;
 </script>
 </head>
 <body>
 <header>
-<h1>Phrase-o-Matic</h1>
+<center><h1>Phrase-o-Matic</h1></center>
 </header>
 <main>
 <p>
