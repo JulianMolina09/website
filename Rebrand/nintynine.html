@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title> Julian Molina </title>
+  <style>
+    @import url('https://fonts.cdnfonts.com/css/pepsi');
+
+    body {
+      font-family: '! PEPSI !', sans-serif;
+      background-color: #D3D3D3;
+    }
+    h1 {
+      font-size: 3.5vw;
+    }
+    #song>p {
+      text-align: center;
+      font-size: 2.5vw;
+      color: #C9002B;
+    }
+    header { 
+      text-align: center;
+      color: #004B93;    }
+    </style>
+</head>
+<body>
+  <header><h1>Bottles of Two Liter Diet Pepsi On the Filing Cabinet</h1></header>
+  <main id="song"></main>
+  
+  <script>
+    let drink = "Diet Pepsi";
+    let lyrics = "";
+    let cans = 99;
+    
+    while (cans > 1) {
+      lyrics += "<p>";
+      lyrics += cans + " bottles of " + drink + " on the filing cabinet <br>";
+      lyrics += cans + " bottles of " + drink + " on the filing cabinet <br>";
+      lyrics += "Take one down, pass it around,";
+      lyrics += "</p>";
+      cans--;
+    }
+    lyrics += "<p>";
+    lyrics += cans + " bottle of " + drink + " on the filing cabinet <br>";
+    lyrics += cans + " bottle of " + drink + " on the filing cabinet <br>";
+    lyrics += "Take one down, pass it around, no more bottles of ";
+    lyrics += drink + " on the filing cabinet";
+    lyrics += "</p>";
+    
+    document.getElementById("song").innerHTML = lyrics;
+    </script>
+
+</body>
+</html>
