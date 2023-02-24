@@ -6,26 +6,31 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <link rel="stylesheet" href="css/index.css">
-
-  <link rel="icon" type="image/x-icon" href="media/fishy.ico">
+  <link rel="stylesheet" href="index.css">
 
 <title> Julian Molina </title>
 
-<script src="javascript/index.js"></script>
+<script src="index.js"></script>
 
 <script>
 window.onload = function() {
-  for (var i = 0; i < 10; i++) {
+  for (var i = 0; i < 11; i++) {
     if (i === 4) {
       var response = prompt("Is this annoying yet?"); // display prompt on the 5th iteration
       alert("You said: " + response);
+    } else if (i === 5) {
+      alert("Which of the Following Statements Is True About Pop-ups?");
     } else if (i === 6) {
-      alert("This is why Number 23 on the practice test is important"); // display message on the 7th iteration
+      alert("A. Ensure you Include Pop-ups In Your Page Design    B. Pop-ups Can't Be Used In Mobile Devices Because Of The Small Screen Size    C. Many Users Block Pop-Ups Becuase They Find Them Annoying   D. You Can Use Pop-ups For Including Important Content"); // display message on the 7th iteration
+    } else if (i === 7) {
+      var response = prompt("Answer?");
+      alert("It Was C! Also Aren't These Pop-ups getting annoying.");
     } else if (i === 8) {
-      alert("It's almost over"); // display message on the 9th iteration
+      alert("Wasn't That A Cool Prompt"); // display message on the 9th iteration
     } else if (i === 9) {
-      alert("Finally over!"); // display message on the 10th iteration
+      alert("Question 42 Was Right It Does Create A Pop-up Box With A Text Field And Requests The User To Input Information Into The Field."); // display message on the 10th iteration
+    } else if (i === 10) {
+      alert("The Next Page Is An Example Of Question 44. I Used h1:last-of-type To Make My Name Black And Keep The Rest Of The Text Gray.");
     } else {
       alert("This is alert message number " + (i + 1)); // display default message
     }
@@ -39,6 +44,12 @@ window.onload = function() {
 <body>
 
 <h1>Annoying</h1>
+<h1>Webpage</h1>
+<h1>By:</h1>
+<h1>Julian Molina</h1>
+
+
+
 
 <footer>
   <a id="vLink1"><strong> HTML </strong> Valid! </a> |
@@ -51,6 +62,3 @@ window.onload = function() {
 
 </html>
 
-
-
- 
