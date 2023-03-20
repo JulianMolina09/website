@@ -26,22 +26,39 @@ body {
   margin: 10px;
 }
 
-a.button {
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
+/*Set background color for nav bar*/
+.topnav {
+  background-color: #6c8cbc;
+  overflow: hidden;
+  opacity: 50%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #ffffff;
   text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  color: #000300;
-  background: white;
-  border: 4px solid #a1a1a1;
-  padding: 20px 246px;
-  border-radius: 3px;
-  text-align: center;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: #5c7cb0;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #343b74;
+  color: white;
+  opacity: 50%;
+}
 }
 </style>
   
-<title> Practice Test B.</title>
+<title> Practice Test A.</title>
 
 <script src="index.js"></script>
 
