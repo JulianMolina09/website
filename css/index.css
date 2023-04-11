@@ -53,6 +53,16 @@ h2{
   font-size: 17px;
 }
 
+ol {
+  text-align: center;
+  color: #ffffff;
+}
+
+ul { 
+  text-align: center;
+  color: #ffffff;
+}
+
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
