@@ -27,6 +27,15 @@ h1{
   color: #ffffff;
 }
 
+h2{
+  margin-left: auto;
+  text-align: center;
+  margin-top: 5%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 0.5in;
+  color: #ffffff;
+}
+
 /*Set background color for nav bar*/
 .topnav {
   background-color: #6c8cbc;
