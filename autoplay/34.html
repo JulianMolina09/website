@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    h1, footer {
+        text-align: center;
+    }
+    footer>a, footer>a:visited {
+        text-decoration: none;
+        color: #555;
+    }
+    h1 { 
+      background-image: linear-gradient(#8009db, #b505e6, #e309c2);
+      font-family: "Courier", Sans-serif;
+      font-size: 550%;
+      text-shadow: 3px 3px 3px #888888;
+      margin: 0%;
+      padding: 1.5%;
+    }
+    h3 { text-align: center;
+    }
+    h4 {text-align: center;}
+    body { 
+      margin: 0%;
+    }
+    .floatright {
+      float: right;
+      clear: right;
+      margin: 10px;
+    }
+    
+    a.button {
+      -webkit-appearance: button;
+      -moz-appearance: button;
+      appearance: button;
+      text-align: center;
+      text-decoration: none;
+      color: #000300;
+      background: white;
+      border: 4px solid #a1a1a1;
+      padding: 20px 246px;
+      border-radius: 3px;
+      text-align: center;
+    }
+    </style>
+
+<title>34</title>
+
+<script>  
+
+function init() {
+  var loc = window.location.href;
+  var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+  var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                        loc + '?profile=css3';
+  document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
+  document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+}
+window.onload = init;
+
+</script>
+
+</head>
+
+<body>
+
+<h1>Question 34 C</h1>
+<h4>You are embedding audio in your HTML5 page and want to specify that the audio file should automatically play immediately upon loading. Which attribute is needed to accomplish this?</h4>
+<h3>B. autoplay=”autoplay”</h3>
+<footer>
+  <a id="vLink1"><strong> HTML </strong> Valid! </a> |
+  <a id="vLink2"><strong> CSS </strong> Valid! </a>
+  </footer>
+  
+</body>
+<audio autoplay>
+    <source src="hawaii.mp3" type="audio/mpeg">
+    Your Browser Does Not Support The Audio Element
+</audio>
+</html>
