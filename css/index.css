@@ -36,6 +36,12 @@ h2 {
   color: #ffffff;
 }
 
+p {  margin-left: auto;
+  text-align: center;
+  margin-top: 5%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 0.25in;
+  color: #ffffff;}
 /*Set background color for nav bar*/
 .topnav {
   background-color: #6c8cbc;
