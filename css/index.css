@@ -56,11 +56,13 @@ h2 {
 ol {
   text-align: center;
   color: #ffffff;
+  padding-left: 25%;
 }
 
 ul { 
   text-align: center;
   color: #ffffff;
+  padding-left: 25%;
 }
 
 /* Change the color of links on hover */
