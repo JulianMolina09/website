@@ -55,7 +55,7 @@
     }
     </style>
 
-<title>14B</title>
+<title>17B</title>
 
 <script>  
 
@@ -67,6 +67,14 @@ function init() {
   document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
   document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
 }
+function changeHandler() {
+    var select = document.getElementById("mySelect");
+    var selectedValue = select.value;
+    
+    // Do something with the selected value
+    console.log("Selected value: " + selectedValue);
+  }
+
 window.onload = init;
 
 </script>
@@ -75,13 +83,16 @@ window.onload = init;
 
 <body>
 
-<h1>Question 14 B</h1>
-<h4>What does the following CSS code snippet represent?</h4>
-<h3>body {
-  background-color: #008080;
-  color: #ffffff;
-}
-</h3>
+<h1>Question 17 B</h1>
+<h4>Which JavaScript object can be affected by the onchange event handler as value changes?</h4>
+<h3>Select</h3>
+
+<select id="mySelect" onchange="changeHandler()">
+  <option value="1">Option 1</option>
+  <option value="2">Option 2</option>
+  <option value="3">Option 3</option>
+</select>
+
 <footer>
   <a id="vLink1"><strong> HTML </strong> Valid! </a> |
   <a id="vLink2"><strong> CSS </strong> Valid! </a>
